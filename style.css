@@ -50,6 +50,7 @@ body > * {
 .link > a {
   text-decoration: none;
   color: inherit;
+  margin: 0 .5em;
 }
 
 /* Main Content */
@@ -88,6 +89,10 @@ footer {
 
 /* Information */
 
+.information {
+  margin: 3em 0;
+}
+
 .info-list {
   display: flex;
   justify-content: space-evenly;
@@ -97,6 +102,19 @@ footer {
 .info-item {
   max-width: 200px;
   text-align: center;
+}
+
+.info-item > img {
+  border: .25em solid #3882f6;
+  border-radius: .75em;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+  text-align: center;
+  margin-top: 0;
 }
 
 /* Call-to-action */
